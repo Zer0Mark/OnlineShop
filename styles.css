@@ -1,0 +1,95 @@
+/* styles for a web store */
+
+/*global variables*/
+:root {
+    /*global colors for the site*/
+    --eggshell:#FAF3DD;
+    --laurelgreen:#C8D5B9;
+    --cambridgeblue:#8FC0A9;
+    --greensheen:#68B0AB;
+    --brand-main:#4A7C59;
+}
+/* styles */
+body {
+    background-color: var(--eggshell);
+}
+#top-nav {
+    background-color: var(--laurelgreen);
+}
+#shop-name {
+    background-color: var(--cambridgeblue);
+    color: var(--brand-main);
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    color: var(--brand-main);
+    padding: 4px;
+}
+#search-bar {
+    background-color: var(--laurelgreen);
+    padding: 5px;
+}
+.flex-container {
+    display:flex;
+    flex-wrap: wrap;
+}
+.featured-product {
+    display:inline-block;
+    width:100%;
+    height: 200px;
+    background-color: var(--cambridgeblue);
+    margin: 5px;
+}
+.small-product-tile {
+    display:inline-block;
+    width:200px;
+    height: 200px;
+    background-color: var(--greensheen);
+    margin: 5px;
+}
+footer {
+    background-color: var(--laurelgreen);
+}
+#bottom-nav ul li{
+    display: block;
+}
+#sign-in-reminder {
+    position:absolute;
+    z-index: 2;
+    right: 20px;
+    top: -50px;
+    background-color: white;
+    border: solid red 1px;
+    border-radius: 5px;
+    width: 120px;
+    animation: dropdown 5s infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+    font-family: monospace;
+    padding: 5px;
+}
+@keyframes dropdown {
+    0% {
+        top: -50px;
+    }
+    50%{
+        top: 20px;
+    }
+    100% {
+        top: 20px;
+    }
+}
+
+#a:hover {
+  display:inline-block;
+  background-color: #ff0000;
+  height:160px;
+  width:160px;
+}
+iframe {
+  height:inherit;
+  width:inherit;
+}
