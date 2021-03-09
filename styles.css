@@ -85,9 +85,7 @@ footer {
 
 #a:hover {
   display:inline-block;
-  background-color: #ff0000;
+  background-color: black;
   height:160px;
   width:160px;
 }
-
-
