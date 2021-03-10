@@ -15,10 +15,13 @@ body {
 }
 #top-nav {
     background-color: var(--laurelgreen);
+    box-shadow: 0px 0px 15px; black ;
 }
 #shop-name {
     background-color: var(--cambridgeblue);
     color: var(--brand-main);
+    box-shadow: 0px 0px 15px; red;
+
 }
 ul {
     list-style: none;
@@ -31,6 +34,7 @@ li {
 #search-bar {
     background-color: var(--laurelgreen);
     padding: 5px;
+    box-shadow: 0px 0px 15px; orange;
 }
 .flex-container {
     display:flex;
@@ -42,6 +46,7 @@ li {
     height: 200px;
     background-color: var(--cambridgeblue);
     margin: 5px;
+    box-shadow: 0px 0px 7px; grey;
 }
 .small-product-tile {
     display:inline-block;
@@ -49,12 +54,14 @@ li {
     height: 200px;
     background-color: var(--greensheen);
     margin: 5px;
+    box-shadow: 0px 0px 15px; black ;
 }
 footer {
     background-color: var(--laurelgreen);
 }
 #bottom-nav ul li{
     display: block;
+
 }
 #sign-in-reminder {
     position:absolute;
@@ -89,3 +96,5 @@ footer {
   height:160px;
   width:160px;
 }
+
+
